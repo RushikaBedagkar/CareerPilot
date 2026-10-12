@@ -1,0 +1,142 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.careerpilot:careerpilot >---------------------
+[INFO] Building  0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:4.1.0:run (default-cli) > test-compile @ careerpilot >>>
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ careerpilot ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ careerpilot ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ careerpilot ---
+[INFO] skip non existing resourceDirectory C:\CareerPilot\backend\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ careerpilot ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:4.1.0:run (default-cli) < test-compile @ careerpilot <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:4.1.0:run (default-cli) @ careerpilot ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.0)
+
+2026-08-16T21:11:31.654+05:30  INFO 14368 --- [careerpilotspring.application.name=careerpilot] [  restartedMain] com.careerpilot.CareerpilotApplication   : Starting CareerpilotApplication using Java 26.0.1 with PID 14368 (C:\CareerPilot\backend\target\classes started by RADHA in C:\CareerPilot\backend)
+2026-08-16T21:11:31.658+05:30  INFO 14368 --- [careerpilotspring.application.name=careerpilot] [  restartedMain] com.careerpilot.CareerpilotApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-08-16T21:11:31.724+05:30  INFO 14368 --- [careerpilotspring.application.name=careerpilot] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-08-16T21:11:31.724+05:30  INFO 14368 --- [careerpilotspring.application.name=careerpilot] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-08-16T21:11:32.476+05:30  INFO 14368 --- [careerpilotspring.application.name=careerpilot] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-16T21:11:32.552+05:30  INFO 14368 --- [careerpilotspring.application.name=careerpilot] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 4 JPA repository interfaces.
+2026-08-16T21:11:33.210+05:30  INFO 14368 --- [careerpilotspring.application.name=careerpilot] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-08-16T21:11:33.225+05:30  INFO 14368 --- [careerpilotspring.application.name=careerpilot] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-16T21:11:33.225+05:30  INFO 14368 --- [careerpilotspring.application.name=careerpilot] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-16T21:11:33.282+05:30  INFO 14368 --- [careerpilotspring.application.name=careerpilot] [  restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1557 ms
+2026-08-16T21:11:33.487+05:30  INFO 14368 --- [careerpilotspring.application.name=careerpilot] [  restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-16T21:11:33.540+05:30  INFO 14368 --- [careerpilotspring.application.name=careerpilot] [  restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-08-16T21:11:33.991+05:30  INFO 14368 --- [careerpilotspring.application.name=careerpilot] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-16T21:11:34.019+05:30  INFO 14368 --- [careerpilotspring.application.name=careerpilot] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-08-16T21:11:34.461+05:30  INFO 14368 --- [careerpilotspring.application.name=careerpilot] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78fee3e3
+2026-08-16T21:11:34.463+05:30  INFO 14368 --- [careerpilotspring.application.name=careerpilot] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-08-16T21:11:34.585+05:30  INFO 14368 --- [careerpilotspring.application.name=careerpilot] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/careerpilot]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: careerpilot/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-16T21:11:35.912+05:30  INFO 14368 --- [careerpilotspring.application.name=careerpilot] [  restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-16T21:11:35.990+05:30  INFO 14368 --- [careerpilotspring.application.name=careerpilot] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-16T21:11:36.125+05:30  INFO 14368 --- [careerpilotspring.application.name=careerpilot] [  restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-08-16T21:11:36.573+05:30  WARN 14368 --- [careerpilotspring.application.name=careerpilot] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-16T21:11:36.682+05:30  WARN 14368 --- [careerpilotspring.application.name=careerpilot] [  restartedMain] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: f935cead-f5ce-4fa7-96bb-cf5cf8b52283
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-08-16T21:11:36.689+05:30  INFO 14368 --- [careerpilotspring.application.name=careerpilot] [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-08-16T21:11:37.007+05:30  WARN 14368 --- [careerpilotspring.application.name=careerpilot] [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Multiple @RequestMapping annotations found on public org.springframework.http.ResponseEntity com.careerpilot.controller.JobController.updateJob(java.lang.Long,com.careerpilot.dto.JobRequest), but only the first will be used: [@org.springframework.web.bind.annotation.DeleteMapping(consumes={}, headers={}, name="", params={}, path={"/{id}"}, produces={}, value={"/{id}"}, version=""), @org.springframework.web.bind.annotation.PutMapping(consumes={}, headers={}, name="", params={}, path={"/{id}"}, produces={}, value={"/{id}"}, version="")]
+2026-08-16T21:11:37.011+05:30  WARN 14368 --- [careerpilotspring.application.name=careerpilot] [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/webmvc/autoconfigure/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'jobController' method 
+com.careerpilot.controller.JobController#deleteJob(Long)
+to {DELETE [/api/jobs/{id}]}: There is already 'jobController' bean method
+com.careerpilot.controller.JobController#updateJob(Long, JobRequest) mapped.
+2026-08-16T21:11:37.012+05:30  INFO 14368 --- [careerpilotspring.application.name=careerpilot] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-16T21:11:37.017+05:30  INFO 14368 --- [careerpilotspring.application.name=careerpilot] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-08-16T21:11:37.032+05:30  INFO 14368 --- [careerpilotspring.application.name=careerpilot] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-08-16T21:11:37.035+05:30  INFO 14368 --- [careerpilotspring.application.name=careerpilot] [  restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-08-16T21:11:37.046+05:30  INFO 14368 --- [careerpilotspring.application.name=careerpilot] [  restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-08-16T21:11:37.063+05:30 ERROR 14368 --- [careerpilotspring.application.name=careerpilot] [  restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/webmvc/autoconfigure/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'jobController' method 
+com.careerpilot.controller.JobController#deleteJob(Long)
+to {DELETE [/api/jobs/{id}]}: There is already 'jobController' bean method
+com.careerpilot.controller.JobController#updateJob(Long, JobRequest) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1815) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1225) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1191) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.8.jar:7.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.8.jar:7.0.8]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.0.jar:4.1.0]
+	at com.careerpilot.CareerpilotApplication.main(CareerpilotApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.1.0.jar:4.1.0]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'jobController' method 
+com.careerpilot.controller.JobController#deleteJob(Long)
+to {DELETE [/api/jobs/{id}]}: There is already 'jobController' bean method
+com.careerpilot.controller.JobController#updateJob(Long, JobRequest) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:646) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:606) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:327) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:459) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:80) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:294) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:987) ~[na:na]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:292) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:261) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:220) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:208) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:158) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1811) ~[spring-beans-7.0.8.jar:7.0.8]
+	... 21 common frames omitted
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.446 s
+[INFO] Finished at: 2026-08-16T21:11:37+05:30
+[INFO] ------------------------------------------------------------------------
